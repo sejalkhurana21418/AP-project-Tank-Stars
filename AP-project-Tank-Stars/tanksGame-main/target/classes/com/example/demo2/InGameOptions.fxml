@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.InGameOptions">
+   <children>
+      <ImageView fitHeight="404.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/wx76_par2_210426.jpg" />
+         </image>
+      </ImageView>
+      <Button blendMode="MULTIPLY" layoutX="364.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" />
+      <Button blendMode="COLOR_BURN" layoutX="5.0" layoutY="-11.0" mnemonicParsing="false" />
+      <Button blendMode="COLOR_BURN" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" />
+      <Label layoutX="285.0" layoutY="363.0" />
+      <ImageView fitHeight="33.0" fitWidth="200.0" layoutX="50.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a704b70fe.png" />
+         </image>
+      </ImageView>
+      <ImageView id="player1Image" fitHeight="73.0" fitWidth="116.0" layoutX="50.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_39a7666a-ebad-4b6c-ae82-ef19ec518fba.png" />
+         </image>
+      </ImageView>
+      <ImageView id="player2Image" fitHeight="73.0" fitWidth="116.0" layoutX="448.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-63809d7ca9270.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a704b70fe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="100.0" layoutX="516.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a6748f71b.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="60.0" layoutX="516.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a68d4a977.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="fire" layoutX="281.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#fire" text="Fire" />
+      <Button layoutX="66.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#left" text="left" />
+      <Button layoutX="485.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#right" text="right" />
+      <Slider id="Player1Angle" layoutX="32.0" layoutY="364.0" value="50.0" />
+      <Slider id="Player1Angle" layoutX="406.0" layoutY="364.0" value="50.0" />
+      <ComboBox id="Weapons" layoutX="225.0" layoutY="295.0" prefWidth="150.0" />
+      <Text id="turn" layoutX="265.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1 Turn" />
+      <Text id="player1Health" fill="#f2f2f2" layoutX="125.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100" />
+      <Text id="player2Health" fill="WHITE" layoutX="374.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100" />
+      <Text id="player1Power" layoutX="140.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+      <Text id="player2Power" layoutX="417.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" />
+      <Button id="startGame" layoutX="247.0" layoutY="170.0" mnemonicParsing="false" onMouseClicked="#startGame" prefHeight="92.0" prefWidth="106.0" text="Start Game" />
+      <Slider id="player1HealthSlider" layoutX="56.0" layoutY="40.0" prefHeight="16.0" prefWidth="188.0" value="100.0">
+         <effect>
+            <ColorAdjust hue="0.74" />
+         </effect></Slider>
+      <Slider id="player2HealthSlider" layoutX="291.0" layoutY="40.0" prefHeight="16.0" prefWidth="188.0" value="100.0" />
+      <ImageView id="explosionGIF" fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@res/explosion%20copy.gif" />
+         </image>
+      </ImageView>
+      <ImageView id="winnerGIF" fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@res/winner.gif" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>

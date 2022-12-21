@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.SelectTank">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="594.0" layoutX="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/shelf.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="128.0" layoutX="122.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@res/%5Bremoval.ai%5D_39a7666a-ebad-4b6c-ae82-ef19ec518fba.png" />
+          </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="128.0" layoutX="132.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@res/Vladimir-removebg-preview.png" />
+          </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="155.0" layoutX="341.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@res/%5Bremoval.ai%5D_tmp-63809d7ca9270.png" />
+          </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="139.0" layoutX="331.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@res/Blazer-removebg-preview.png" />
+          </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="139.0" layoutX="132.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/Mammoth-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="154.0" layoutX="300.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/Tiger_edited-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

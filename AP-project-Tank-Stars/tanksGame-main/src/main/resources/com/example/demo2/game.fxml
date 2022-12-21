@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.InGameOptions">
+   <children>
+      <ImageView fitHeight="404.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/wx76_par2_210426.jpg" />
+         </image>
+      </ImageView>
+      <Button blendMode="MULTIPLY" layoutX="364.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" />
+      <Button blendMode="COLOR_BURN" layoutX="5.0" layoutY="-11.0" mnemonicParsing="false" />
+      <Button blendMode="COLOR_BURN" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" />
+      <Label layoutX="285.0" layoutY="363.0" />
+      <ImageView fitHeight="25.0" fitWidth="180.0" layoutX="66.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a704b70fe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="116.0" layoutX="22.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_39a7666a-ebad-4b6c-ae82-ef19ec518fba.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="116.0" layoutX="448.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-63809d7ca9270.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a704b70fe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="100.0" layoutX="404.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a6748f71b.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="60.0" layoutX="476.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/%5Bremoval.ai%5D_tmp-6380a68d4a977.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
